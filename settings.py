@@ -67,7 +67,7 @@ WSGI_APPLICATION = 'private_diary.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 # データベース設定
-"""DATABASES = {
+DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'private_diary',
@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'private_diary.wsgi.application'
         'HOST': '',
         'PORT': '',
     }
-}"""
+}
 
 
 # Password validation
