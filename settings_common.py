@@ -20,6 +20,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'diary.apps.DiaryConfig',
+    'blog.apps.BlogConfig',
 ]
 
 MIDDLEWARE = [
