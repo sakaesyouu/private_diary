@@ -20,4 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls), #第1関数には、パスを入れます。
     path('',include('diary.urls')),  #第２関数には、都バス先を入れます。
     path('blog/',include('blog.urls')),
+    path('accounts/', include('allauth.urls')),
 ]
